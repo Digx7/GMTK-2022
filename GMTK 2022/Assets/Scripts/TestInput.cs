@@ -6,8 +6,10 @@ using UnityEngine.Events;
 public class TestInput : MonoBehaviour
 {
     public UnityEvent SpaceBar;
+    public UnityEvent W;
 
     public void Update(){
       if(Input.GetKeyDown("space")) SpaceBar.Invoke();
+      if(Input.GetKeyDown("w")) W.Invoke();
     }
 }

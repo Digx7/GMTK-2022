@@ -23,9 +23,7 @@ public class Dice_Manager : MonoBehaviour
       Dice.Add(newDie);
     }
 
-    public Dice_SO RemoveDice(int index){
-      Dice_SO output = Dice[index];
-      Dice.RemoveAt(index);
-      return output;
+    public void RemoveDice(Dice_SO die){
+      Dice.Remove(die);
     }
 }

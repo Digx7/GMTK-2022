@@ -6,10 +6,12 @@ public class GameManager : MonoBehaviour
 {
     public Dice_Manager StepDice;
     public Dice_Manager StableDice;
-    public Dice_Manager UnusedDice;
 
     public int relationship_Stability;
     public int step_DC;
+
+    public Step_SO currentStep;
+    public UI_Manager uiManager;
 
     public void Role(){
       int StepRole = StepDice.Role();
@@ -19,5 +21,22 @@ public class GameManager : MonoBehaviour
       else Debug.Log("Step failed");
 
       relationship_Stability += StableRole;
+    }
+
+
+    public void LoadNewStep(){
+      //update UI
+      //-- set title
+      //-- set image
+      uiManager.LoadNewStep(currentStep);
+
+      //Make new dice cards
+      //-- need to clear old ones
+      //-- need to generate random amount of new ones
+
+      //Set DC
+      //-- Should be random but influenced by relationship_Stability
+      step_DC = Random.Range(5,20);
+      step_DC -=relationship_Stability;
     }
 }
