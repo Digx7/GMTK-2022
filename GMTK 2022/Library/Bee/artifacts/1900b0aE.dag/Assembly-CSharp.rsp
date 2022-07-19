@@ -392,6 +392,7 @@
 "Assets/Scripts/ItemSlot.cs"
 "Assets/Scripts/Step_SO.cs"
 "Assets/Scripts/TestInput.cs"
+"Assets/Scripts/UISpawner.cs"
 "Assets/Scripts/UI_Manager.cs"
 -langversion:9.0
 

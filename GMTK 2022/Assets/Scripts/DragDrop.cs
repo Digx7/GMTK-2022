@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IDropHandler
 {
 
+  public bool interactable;
   [SerializeField] private Canvas canvas;
 
   private RectTransform rectTransform;
@@ -20,24 +21,31 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
   private void Awake(){
     rectTransform = GetComponent<RectTransform>();
     canvasGroup = GetComponent<CanvasGroup>();
+    canvas = GetComponentInParent<Canvas>();
   }
 
   public void OnBeginDrag(PointerEventData eventData){
     //Debug.Log("OnDrag");
-    canvasGroup.alpha = .6f;
-    canvasGroup.blocksRaycasts = false;
+    if(interactable){
+      canvasGroup.alpha = .6f;
+      canvasGroup.blocksRaycasts = false;
+    }
   }
 
   public void OnDrag(PointerEventData eventData){
     //Debug.Log("OnDrag");
-    rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-    RemovingDie();
+    if(interactable){
+      rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
+      RemovingDie();
+    }
   }
 
   public void OnEndDrag(PointerEventData eventData){
     //Debug.Log("OnEndDrag");
-    canvasGroup.alpha = 1f;
-    canvasGroup.blocksRaycasts = true;
+    if(interactable){
+      canvasGroup.alpha = 1f;
+      canvasGroup.blocksRaycasts = true;
+    }
   }
 
   public void OnPointerDown(PointerEventData eventData){

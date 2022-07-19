@@ -12,8 +12,13 @@ public class GameManager : MonoBehaviour
 
     public Step_SO currentStep;
     public UI_Manager uiManager;
+    public Event_SO stepStateEventSO;
+    public UISpawner diceCardSpawner;
 
     public void Role(){
+      GlobalEnums.currentStepState = StepState.Rolling;
+      stepStateEventSO.Raise();
+
       int StepRole = StepDice.Role();
       int StableRole = StableDice.Role();
 
@@ -21,6 +26,10 @@ public class GameManager : MonoBehaviour
       else Debug.Log("Step failed");
 
       relationship_Stability += StableRole;
+
+      uiManager.SetStepRollResult(StepRole);
+      uiManager.SetStableRollResult(StableRole);
+      uiManager.SetStableValue(relationship_Stability);
     }
 
 
@@ -33,6 +42,9 @@ public class GameManager : MonoBehaviour
       //Make new dice cards
       //-- need to clear old ones
       //-- need to generate random amount of new ones
+      diceCardSpawner.Spawn();
+      GlobalEnums.currentStepState = StepState.Start;
+      stepStateEventSO.Raise();
 
       //Set DC
       //-- Should be random but influenced by relationship_Stability

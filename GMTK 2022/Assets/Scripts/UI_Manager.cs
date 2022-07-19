@@ -22,4 +22,16 @@ public class UI_Manager : MonoBehaviour
       title.text = newStep.title;
       artWork.sprite = newStep.artWork;
     }
+
+    public void SetStepRollResult(int value){
+      stepRollResult.text = "" + value;
+    }
+
+    public void SetStableRollResult(int value){
+      stableRollResult.text = "" + value;
+    }
+
+    public void SetStableValue(int value){
+      stableValue.text = "" + value;
+    }
 }

@@ -11,5 +11,10 @@ public class TestInput : MonoBehaviour
     public void Update(){
       if(Input.GetKeyDown("space")) SpaceBar.Invoke();
       if(Input.GetKeyDown("w")) W.Invoke();
+      if(Input.GetKeyDown("p")) PrintCurrentStepState();
+    }
+
+    private void PrintCurrentStepState(){
+      Debug.Log(GlobalEnums.currentStepState);
     }
 }

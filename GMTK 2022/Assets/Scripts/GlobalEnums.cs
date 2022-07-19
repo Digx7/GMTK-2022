@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum StepState {Start,Rolling,End}
 
-public class GlobalEnums
+public static class GlobalEnums
 {
-  public StepState currentStepState;
+  public static StepState currentStepState;
 }
