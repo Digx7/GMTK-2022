@@ -18,6 +18,10 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     slot = input;
   }
 
+  public void SetInteractable(bool input){
+    interactable = input;
+  }
+
   private void Awake(){
     rectTransform = GetComponent<RectTransform>();
     canvasGroup = GetComponent<CanvasGroup>();

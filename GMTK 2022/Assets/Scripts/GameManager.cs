@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public ProgressionManager progressionManager;
+
     public Dice_Manager StepDice;
     public Dice_Manager StableDice;
 
@@ -21,36 +23,77 @@ public class GameManager : MonoBehaviour
     private int StepRoll;
     private int StableRoll;
 
+    //private bool end;
+    private bool passed;
+
+    private bool rollIsGoing=false;
+
     public void Role(){
-      GlobalEnums.currentStepState = StepState.Rolling;
-      stepStateEventSO.Raise();
-      rollingStarted.Raise();
+      if(!rollIsGoing){
+        rollIsGoing = true;
 
-      StepRoll = StepDice.Role();
-      StableRoll = StableDice.Role();
+        GlobalEnums.currentStepState = StepState.Rolling;
+        stepStateEventSO.Raise();
+        rollingStarted.Raise();
 
-      if(StepRoll >= step_DC) Debug.Log("Step passed");
-      else Debug.Log("Step failed");
+        StepRoll = StepDice.Role();
+        StableRoll = StableDice.Role();
 
-      relationship_Stability += StableRoll;
-      StartCoroutine("Rolling");
+        if(StepRoll >= step_DC) {
+          Debug.Log("Step passed");
+          passed = true;
+        }
+        else {
+           Debug.Log("Step failed");
+           passed = false;
+        }
+
+        relationship_Stability += StableRoll;
+        StartCoroutine("Rolling");
+      }
     }
 
     private void RollStopped(){
+      rollIsGoing=false;
+
       rollingStopped.Raise();
 
       uiManager.SetStepRollResult(StepRoll);
       uiManager.SetStableRollResult(StableRoll);
       uiManager.SetStableValue(relationship_Stability);
+
+      StartCoroutine("Ending");
+    }
+
+    private void End(){
+      Debug.Log("Starting End Function");
+      GlobalEnums.currentStepState = StepState.End;
+
+      if(passed){
+        // you passed
+        Debug.Log("Triggereing Passed Node");
+        progressionManager.NextNode(0);
+      }else{
+        // you failed
+        Debug.Log("Triggereing Failed Node");
+        progressionManager.NextNode(1);
+      }
+
     }
 
     IEnumerator Rolling(){
-      Debug.Log("Starting Coroutine");
+      //Debug.Log("Starting Coroutine");
       yield return new WaitForSeconds(3);
-      Debug.Log("Ending Coroutine");
+      //Debug.Log("Ending Coroutine");
       RollStopped();
     }
 
+    IEnumerator Ending(){
+      Debug.Log("starting Ending coroutine");
+      yield return new WaitForSeconds(3);
+      Debug.Log("ending Ending coroutine");
+      End();
+    }
 
     public void LoadNewStep(){
       //update UI
