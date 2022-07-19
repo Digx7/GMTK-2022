@@ -12,5 +12,9 @@ public class Dice_SO_Event : UnityEvent<Dice_SO>
 {}
 
 [System.Serializable]
+public class DiceCardEvent : UnityEvent<DiceCard>
+{}
+
+[System.Serializable]
 public class IntEvent : UnityEvent<int>
 {}

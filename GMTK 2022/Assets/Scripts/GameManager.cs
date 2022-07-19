@@ -15,21 +15,40 @@ public class GameManager : MonoBehaviour
     public Event_SO stepStateEventSO;
     public UISpawner diceCardSpawner;
 
+    public Event_SO rollingStarted;
+    public Event_SO rollingStopped;
+
+    private int StepRoll;
+    private int StableRoll;
+
     public void Role(){
       GlobalEnums.currentStepState = StepState.Rolling;
       stepStateEventSO.Raise();
+      rollingStarted.Raise();
 
-      int StepRole = StepDice.Role();
-      int StableRole = StableDice.Role();
+      StepRoll = StepDice.Role();
+      StableRoll = StableDice.Role();
 
-      if(StepRole >= step_DC) Debug.Log("Step passed");
+      if(StepRoll >= step_DC) Debug.Log("Step passed");
       else Debug.Log("Step failed");
 
-      relationship_Stability += StableRole;
+      relationship_Stability += StableRoll;
+      StartCoroutine("Rolling");
+    }
 
-      uiManager.SetStepRollResult(StepRole);
-      uiManager.SetStableRollResult(StableRole);
+    private void RollStopped(){
+      rollingStopped.Raise();
+
+      uiManager.SetStepRollResult(StepRoll);
+      uiManager.SetStableRollResult(StableRoll);
       uiManager.SetStableValue(relationship_Stability);
+    }
+
+    IEnumerator Rolling(){
+      Debug.Log("Starting Coroutine");
+      yield return new WaitForSeconds(3);
+      Debug.Log("Ending Coroutine");
+      RollStopped();
     }
 
 

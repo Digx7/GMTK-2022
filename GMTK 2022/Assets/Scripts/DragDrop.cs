@@ -59,7 +59,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
   private void RemovingDie(){
     if(slot == null) return;
     if(slot.GetComponent<RectTransform>().anchoredPosition != this.GetComponent<RectTransform>().anchoredPosition){
-      slot.OnDiceRemoved.Invoke(this.GetComponent<DiceCard>().die);
+      slot.OnDiceRemoved.Invoke(this.GetComponent<DiceCard>());
       SetItemSlot(null);
     }
   }

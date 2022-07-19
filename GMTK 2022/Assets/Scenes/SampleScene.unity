@@ -414,6 +414,236 @@ MonoBehaviour:
   stepRollResult: {fileID: 1780243807}
   stableRollResult: {fileID: 1315417561}
   stableValue: {fileID: 1356230289}
+--- !u!1001 &96383520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 551968903}
+    m_Modifications:
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceAdded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1337185958}
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceRemoved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1337185958}
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceAdded.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddDice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceRemoved.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RemoveDice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 396.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 592
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581679, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Name
+      value: Dice Card Slot (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+--- !u!1001 &128848612
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 551968903}
+    m_Modifications:
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceAdded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1337185958}
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceRemoved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1337185958}
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceAdded.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddDice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceRemoved.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RemoveDice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 396.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 592
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581679, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Name
+      value: Dice Card Slot (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
 --- !u!1 &274573802
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,6 +1026,8 @@ MonoBehaviour:
   uiManager: {fileID: 61562727}
   stepStateEventSO: {fileID: 11400000, guid: 482ce8bc73069cd4bb09d498de6dfc8b, type: 2}
   diceCardSpawner: {fileID: 1601277587}
+  rollingStarted: {fileID: 11400000, guid: e2e5ed0391832924e953f5137ee289fe, type: 2}
+  rollingStopped: {fileID: 11400000, guid: 7c100815cfe57ca4390d00f07c05138f, type: 2}
 --- !u!4 &550856467
 Transform:
   m_ObjectHideFlags: 0
@@ -841,9 +1073,9 @@ RectTransform:
   m_Children:
   - {fileID: 48509545}
   - {fileID: 59097825}
-  - {fileID: 1178894683}
-  - {fileID: 1253946718}
-  - {fileID: 1498183079}
+  - {fileID: 642015394}
+  - {fileID: 942440551}
+  - {fileID: 1340244557}
   m_Father: {fileID: 61562726}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -852,6 +1084,11 @@ RectTransform:
   m_AnchoredPosition: {x: 118.5, y: -136.5}
   m_SizeDelta: {x: -463, y: -427}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &642015394 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+  m_PrefabInstance: {fileID: 2059180355}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &747688697
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,125 +1165,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 747688697}
   m_CullTransparentMesh: 1
---- !u!1 &750702473
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 750702474}
-  - component: {fileID: 750702476}
-  - component: {fileID: 750702475}
-  - component: {fileID: 750702477}
-  m_Layer: 5
-  m_Name: Dice Card Slot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &750702474
+--- !u!224 &750702474 stripped
 RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+  m_PrefabInstance: {fileID: 5185120419500841446}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750702473}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1235689964}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 231.00009, y: 52.999985}
-  m_SizeDelta: {x: 396.99997, y: 592}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &750702475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!224 &942440551 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+  m_PrefabInstance: {fileID: 128848612}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750702473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1169443383, guid: fb9337303e4c166418bd64411b01240d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &750702476
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750702473}
-  m_CullTransparentMesh: 1
---- !u!114 &750702477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750702473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 201413d69efe23c4e96ec23c586c021d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnDiceAdded:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1267527515}
-        m_TargetAssemblyTypeName: Dice_Manager, Assembly-CSharp
-        m_MethodName: AddDice
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnDiceRemoved:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1267527515}
-        m_TargetAssemblyTypeName: Dice_Manager, Assembly-CSharp
-        m_MethodName: RemoveDice
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &998816090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,244 +1252,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998816090}
   m_CullTransparentMesh: 1
---- !u!1 &1024297278
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1024297279}
-  - component: {fileID: 1024297282}
-  - component: {fileID: 1024297281}
-  - component: {fileID: 1024297280}
-  m_Layer: 5
-  m_Name: Dice Card Slot (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1024297279
+--- !u!224 &1060964410 stripped
 RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+  m_PrefabInstance: {fileID: 2119660135}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024297278}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1235689964}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 318.99994, y: 52.999985}
-  m_SizeDelta: {x: 396.99997, y: 592}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1024297280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024297278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 201413d69efe23c4e96ec23c586c021d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnDiceAdded:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1267527515}
-        m_TargetAssemblyTypeName: Dice_Manager, Assembly-CSharp
-        m_MethodName: AddDice
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnDiceRemoved:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1267527515}
-        m_TargetAssemblyTypeName: Dice_Manager, Assembly-CSharp
-        m_MethodName: RemoveDice
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1024297281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024297278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1169443383, guid: fb9337303e4c166418bd64411b01240d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1024297282
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024297278}
-  m_CullTransparentMesh: 1
---- !u!1 &1178894682
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1178894683}
-  - component: {fileID: 1178894686}
-  - component: {fileID: 1178894685}
-  - component: {fileID: 1178894684}
-  m_Layer: 5
-  m_Name: Dice Card Slot (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1178894683
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178894682}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 551968903}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -177, y: -43.2}
-  m_SizeDelta: {x: 396.99997, y: 592}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1178894684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178894682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 201413d69efe23c4e96ec23c586c021d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnDiceAdded:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1337185958}
-        m_TargetAssemblyTypeName: Dice_Manager, Assembly-CSharp
-        m_MethodName: AddDice
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnDiceRemoved:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1337185958}
-        m_TargetAssemblyTypeName: Dice_Manager, Assembly-CSharp
-        m_MethodName: RemoveDice
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1178894685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178894682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1169443383, guid: fb9337303e4c166418bd64411b01240d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1178894686
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178894682}
-  m_CullTransparentMesh: 1
 --- !u!1 &1203314322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,7 +1377,7 @@ RectTransform:
   - {fileID: 1543957834}
   - {fileID: 274573803}
   - {fileID: 750702474}
-  - {fileID: 1024297279}
+  - {fileID: 1060964410}
   m_Father: {fileID: 61562726}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1558,125 +1453,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1253946717
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1253946718}
-  - component: {fileID: 1253946721}
-  - component: {fileID: 1253946720}
-  - component: {fileID: 1253946719}
-  m_Layer: 5
-  m_Name: Dice Card Slot (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1253946718
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253946717}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 551968903}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -102, y: -45.19998}
-  m_SizeDelta: {x: 396.99997, y: 592}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1253946719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253946717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 201413d69efe23c4e96ec23c586c021d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnDiceAdded:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1337185958}
-        m_TargetAssemblyTypeName: Dice_Manager, Assembly-CSharp
-        m_MethodName: AddDice
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnDiceRemoved:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1337185958}
-        m_TargetAssemblyTypeName: Dice_Manager, Assembly-CSharp
-        m_MethodName: RemoveDice
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1253946720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253946717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1169443383, guid: fb9337303e4c166418bd64411b01240d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1253946721
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253946717}
-  m_CullTransparentMesh: 1
 --- !u!1 &1267527514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,6 +1680,11 @@ Transform:
   m_Father: {fileID: 1537386865}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1340244557 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+  m_PrefabInstance: {fileID: 96383520}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1351058488
 GameObject:
   m_ObjectHideFlags: 0
@@ -2280,125 +2061,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415503517}
   m_CullTransparentMesh: 1
---- !u!1 &1498183078
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1498183079}
-  - component: {fileID: 1498183082}
-  - component: {fileID: 1498183081}
-  - component: {fileID: 1498183080}
-  m_Layer: 5
-  m_Name: Dice Card Slot (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1498183079
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498183078}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 551968903}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24, y: -45.19998}
-  m_SizeDelta: {x: 396.99997, y: 592}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1498183080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498183078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 201413d69efe23c4e96ec23c586c021d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnDiceAdded:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1337185958}
-        m_TargetAssemblyTypeName: Dice_Manager, Assembly-CSharp
-        m_MethodName: AddDice
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnDiceRemoved:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1337185958}
-        m_TargetAssemblyTypeName: Dice_Manager, Assembly-CSharp
-        m_MethodName: RemoveDice
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1498183081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498183078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1169443383, guid: fb9337303e4c166418bd64411b01240d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1498183082
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498183078}
-  m_CullTransparentMesh: 1
 --- !u!1 &1537386864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2572,7 +2234,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44026b4df4f48804ba1bc6dcf154ab02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 166857382550734961, guid: b8cdfa70a313cbb48bae2f2d0e49fbb8, type: 3}
+  objectsToSpawn:
+  - {fileID: 2332902581150217939, guid: b16ff3040dd65cc4eb6bada7ea88bcdb, type: 3}
+  - {fileID: 8488307160390392219, guid: b3d0594bac988394da445fc04679c999, type: 3}
   spawnPoint: {x: -160, y: -230}
   offset: {x: 100, y: 0}
   amountToSpawn: 3
@@ -2785,3 +2449,332 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2059180355
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 551968903}
+    m_Modifications:
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceAdded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1337185958}
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceRemoved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1337185958}
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceAdded.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddDice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceRemoved.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RemoveDice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 396.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 592
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -176
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581679, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Name
+      value: Dice Card Slot (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+--- !u!1001 &2119660135
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 1235689964}
+    m_Modifications:
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceAdded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1267527515}
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceRemoved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1267527515}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 396.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 592
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 319
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 52.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581679, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Name
+      value: Dice Card Slot (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+--- !u!1001 &5185120419500841446
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 1235689964}
+    m_Modifications:
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceAdded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1267527515}
+    - target: {fileID: 5185120419153581675, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: OnDiceRemoved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1267527515}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 396.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 592
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 231.00009
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 52.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581676, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185120419153581679, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}
+      propertyPath: m_Name
+      value: Dice Card Slot
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8adb1c1a2a93ba44da3285a79abe1c00, type: 3}

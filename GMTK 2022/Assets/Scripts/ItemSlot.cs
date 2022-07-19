@@ -5,18 +5,28 @@ using UnityEngine.EventSystems;
 
 public class ItemSlot : MonoBehaviour, IDropHandler
 {
-
-    public Dice_SO_Event OnDiceAdded;
-    public Dice_SO_Event OnDiceRemoved;
+    public bool interactable = true;
+    public DiceCardEvent OnDiceAdded;
+    public DiceCardEvent OnDiceRemoved;
 
     public void OnDrop(PointerEventData eventData){
-      Debug.Log("OnDrop");
-      if (eventData.pointerDrag != null) {
-        eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform> ().anchoredPosition;
-        eventData.pointerDrag.GetComponent<DragDrop>().SetItemSlot(this);
-        Dice_SO die = eventData.pointerDrag.GetComponent<DiceCard>().die;
-        OnDiceAdded.Invoke(die);
+      if(interactable){
+        Debug.Log("OnDrop");
+        if (eventData.pointerDrag != null) {
+          eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform> ().anchoredPosition;
+          eventData.pointerDrag.GetComponent<DragDrop>().SetItemSlot(this);
+          DiceCard dieCard = eventData.pointerDrag.GetComponent<DiceCard>();
+          OnDiceAdded.Invoke(dieCard);
+        }
       }
+    }
+
+    public void TurnOffInteractable(){
+      interactable = false;
+    }
+
+    public void TurnOnInteractable(){
+      interactable = true;
     }
 
 

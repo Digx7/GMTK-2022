@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UISpawner : MonoBehaviour
 {
-    public GameObject objectToSpawn;
+    public List<GameObject> objectsToSpawn;
 
     public Vector2 spawnPoint;
     public Vector2 offset;
@@ -13,7 +13,7 @@ public class UISpawner : MonoBehaviour
 
     public void Spawn(){
       for(int i =0; i < amountToSpawn; ++i){
-        GameObject spawned = Instantiate(objectToSpawn,this.transform);
+        GameObject spawned = Instantiate(objectsToSpawn[Random.Range(0,objectsToSpawn.Count)],this.transform);
         spawned.GetComponent<RectTransform>().anchoredPosition += spawnPoint + (offset * i);
       }
     }

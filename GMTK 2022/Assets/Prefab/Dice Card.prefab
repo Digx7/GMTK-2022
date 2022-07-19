@@ -150,6 +150,8 @@ GameObject:
   - component: {fileID: 166857382550734974}
   - component: {fileID: 5859126641967948336}
   - component: {fileID: 6536353315887698166}
+  - component: {fileID: 5554398600778085825}
+  - component: {fileID: 1579712636974207799}
   m_Layer: 5
   m_Name: Dice Card
   m_TagString: Untagged
@@ -172,7 +174,7 @@ RectTransform:
   - {fileID: 166857381666491554}
   - {fileID: 166857383090430468}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -257,6 +259,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die: {fileID: 11400000, guid: 8819d2156c5f6a5438e957421dbbb074, type: 2}
   dragDrop: {fileID: 166857382550734973}
+  animator: {fileID: 5554398600778085825}
+  rollResult: {fileID: 166857381666491555}
+  lastRoll: 0
 --- !u!114 &6536353315887698166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,6 +281,54 @@ MonoBehaviour:
       - m_Target: {fileID: 5859126641967948336}
         m_TargetAssemblyTypeName: DiceCard, Assembly-CSharp
         m_MethodName: OnChangeInState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!95 &5554398600778085825
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166857382550734961}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5448cfb0a166f35489599a9379fb4687, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1579712636974207799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166857382550734961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b41724bb50acc474791a6537014df122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 7c100815cfe57ca4390d00f07c05138f, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5859126641967948336}
+        m_TargetAssemblyTypeName: DiceCard, Assembly-CSharp
+        m_MethodName: OnRollingStopped
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
