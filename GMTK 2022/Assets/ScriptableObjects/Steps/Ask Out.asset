@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Ask Out
   m_EditorClassIdentifier: 
   title: Ask Them Out
-  artWork: {fileID: 21300000, guid: da477463c9c3ef94584d0b1f25227b19, type: 3}
+  artWork: {fileID: 193045966, guid: 551f10a65a45d614ebb18dab671fb869, type: 3}

@@ -22,6 +22,10 @@ public class ProgressionManager : MonoBehaviour
       }
     }
 
+    public void Start(){
+      NextNode();
+    }
+
     private void NewStepNode(){
       gameManager.currentStep = currentNode.step_data;
       gameManager.LoadNewStep();

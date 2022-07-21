@@ -140,7 +140,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5185120419153581675}
         m_TargetAssemblyTypeName: ItemSlot, Assembly-CSharp
-        m_MethodName: TurnOnInteractable
+        m_MethodName: TurnOffInteractable
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -168,7 +168,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5185120419153581675}
         m_TargetAssemblyTypeName: ItemSlot, Assembly-CSharp
-        m_MethodName: TurnOffInteractable
+        m_MethodName: TurnOnInteractable
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
