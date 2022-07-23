@@ -3068,11 +3068,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectsToSpawn:
-  - {fileID: 2332902581150217939, guid: b16ff3040dd65cc4eb6bada7ea88bcdb, type: 3}
   - {fileID: 8488307160390392219, guid: b3d0594bac988394da445fc04679c999, type: 3}
+  - {fileID: 2332902581150217939, guid: b16ff3040dd65cc4eb6bada7ea88bcdb, type: 3}
+  - {fileID: 2332902581150217939, guid: 4451f89cea69fde40b9473cc820642a8, type: 3}
+  - {fileID: 2332902581150217939, guid: 0d083495edfc332449e9befb65d42ee7, type: 3}
+  - {fileID: 2332902581150217939, guid: 277e4bf57e41b764a87a846518bc7e95, type: 3}
+  - {fileID: 2332902581150217939, guid: 13c99e0fef2730548aca0d1840cb973b, type: 3}
   spawnPoint: {x: -255, y: -330}
   offset: {x: 100, y: 0}
-  amountToSpawn: 3
+  amountToSpawn: 1
 --- !u!1 &1740519897
 GameObject:
   m_ObjectHideFlags: 0
