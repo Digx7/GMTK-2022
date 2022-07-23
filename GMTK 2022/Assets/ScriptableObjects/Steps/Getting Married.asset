@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330a8d8a09a9f7d43b9d07e5a0efed76, type: 3}
   m_Name: Getting Married
   m_EditorClassIdentifier: 
-  title: Get Married
-  artWork: {fileID: 0}
+  title: have a wedding
+  artWork: {fileID: -957230889, guid: 05e15a7d346436d4a80ac1e39cca8411, type: 3}
+  median: 4
+  range: 1

@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330a8d8a09a9f7d43b9d07e5a0efed76, type: 3}
   m_Name: Serious Dating
   m_EditorClassIdentifier: 
-  title: Serious Dating
-  artWork: {fileID: 0}
+  title: do some serious dating
+  artWork: {fileID: -333775470, guid: 364a25de6196f8d478317dbb6b62f9fb, type: 3}
+  median: 4
+  range: 1

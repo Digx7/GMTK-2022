@@ -7,4 +7,7 @@ public class Step_SO : ScriptableObject
 {
   public string title;
   public Sprite artWork;
+
+  public int median;
+  public int range;
 }

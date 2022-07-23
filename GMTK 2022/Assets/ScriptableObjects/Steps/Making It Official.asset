@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330a8d8a09a9f7d43b9d07e5a0efed76, type: 3}
   m_Name: Making It Official
   m_EditorClassIdentifier: 
-  title: Make It Official
-  artWork: {fileID: 0}
+  title: make it official
+  artWork: {fileID: -1315185628, guid: ec463770aed67fa47a896ce48acecde4, type: 3}
+  median: 4
+  range: 1

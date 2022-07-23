@@ -110,7 +110,10 @@ public class GameManager : MonoBehaviour
 
       //Set DC
       //-- Should be random but influenced by relationship_Stability
-      step_DC = Random.Range(5,20);
-      step_DC -=relationship_Stability;
+      int minRange = currentStep.median - currentStep.range;
+      int maxRange = currentStep.median + currentStep.range - relationship_Stability;
+      if(maxRange < minRange) maxRange = minRange;
+
+      step_DC = Random.Range(minRange,maxRange);
     }
 }

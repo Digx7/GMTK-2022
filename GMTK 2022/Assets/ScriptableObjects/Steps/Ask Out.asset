@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330a8d8a09a9f7d43b9d07e5a0efed76, type: 3}
   m_Name: Ask Out
   m_EditorClassIdentifier: 
-  title: Ask Them Out
+  title: ask them out
   artWork: {fileID: 193045966, guid: 551f10a65a45d614ebb18dab671fb869, type: 3}
+  median: 4
+  range: 1
