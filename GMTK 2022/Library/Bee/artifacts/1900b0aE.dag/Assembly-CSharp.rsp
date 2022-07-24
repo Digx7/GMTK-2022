@@ -393,6 +393,7 @@
 "Assets/Scripts/GlobalEnums.cs"
 "Assets/Scripts/ItemSlot.cs"
 "Assets/Scripts/LoadAScene.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/ProgessionNode_SO.cs"
 "Assets/Scripts/ProgressionManager.cs"
 "Assets/Scripts/Step_SO.cs"

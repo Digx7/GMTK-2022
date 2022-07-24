@@ -10,4 +10,6 @@ public class Card_SO : ScriptableObject
 
   [TextArea]
   public string text;
+
+  public int value;
 }

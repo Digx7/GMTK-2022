@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Random Bad 3
   m_EditorClassIdentifier: 
   type: 1
-  artWork: {fileID: 0}
-  text: Random Bad 3
+  artWork: {fileID: 1753379828, guid: 391057cada095ee4e8534436fc831289, type: 3}
+  text: Are you cheating?!
+  value: -3

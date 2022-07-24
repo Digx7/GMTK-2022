@@ -16,6 +16,8 @@ public class Card_Manager : MonoBehaviour
     public TextMeshProUGUI text;
     public Button button;
 
+    public IntEvent CardValue;
+
     public void SetActive(){
       UI_Head.SetActive(true);
     }
@@ -38,6 +40,8 @@ public class Card_Manager : MonoBehaviour
         button.onClick.AddListener(OnToNext);
         button.GetComponentInChildren<TextMeshProUGUI>().text = "To Next";
       }
+
+      if(data.value != 0) CardValue.Invoke(data.value);
     }
 
     public void OnToTitle(){

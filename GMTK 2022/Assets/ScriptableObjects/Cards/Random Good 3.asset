@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Random Good 3
   m_EditorClassIdentifier: 
   type: 1
-  artWork: {fileID: 0}
-  text: Random Good 3
+  artWork: {fileID: -442137346, guid: 391057cada095ee4e8534436fc831289, type: 3}
+  text: That letter meant alot
+  value: 3

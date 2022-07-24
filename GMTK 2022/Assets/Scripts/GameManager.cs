@@ -53,6 +53,11 @@ public class GameManager : MonoBehaviour
       }
     }
 
+    public void UpdateRelationshipStability(int input){
+      relationship_Stability += input;
+      uiManager.SetStableValue(relationship_Stability);
+    }
+
     private void RollStopped(){
       rollIsGoing=false;
 

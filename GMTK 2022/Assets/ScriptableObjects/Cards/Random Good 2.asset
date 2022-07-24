@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Random Good 2
   m_EditorClassIdentifier: 
   type: 1
-  artWork: {fileID: 0}
-  text: Random Good 2
+  artWork: {fileID: 332296841, guid: 391057cada095ee4e8534436fc831289, type: 3}
+  text: You remembered
+  value: 2

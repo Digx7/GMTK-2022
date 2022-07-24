@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Random Bad 1
   m_EditorClassIdentifier: 
   type: 1
-  artWork: {fileID: 0}
-  text: Random Bad 1
+  artWork: {fileID: 2113625369, guid: 391057cada095ee4e8534436fc831289, type: 3}
+  text: That joke didn't land
+  value: -1
