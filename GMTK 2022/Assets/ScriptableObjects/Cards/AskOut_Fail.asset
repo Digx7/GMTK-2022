@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05e14a48f54d0d54ea66f5f825ddd1b0, type: 3}
   m_Name: AskOut_Fail
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
   artWork: {fileID: 1191840447, guid: 551f10a65a45d614ebb18dab671fb869, type: 3}
   text: Their not interested
+  value: 0

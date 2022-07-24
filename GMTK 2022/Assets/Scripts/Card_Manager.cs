@@ -39,6 +39,9 @@ public class Card_Manager : MonoBehaviour
       }else if(data.type == CardType.ToNext){
         button.onClick.AddListener(OnToNext);
         button.GetComponentInChildren<TextMeshProUGUI>().text = "To Next";
+      }else if(data.type == CardType.ToRestart){
+        button.onClick.AddListener(OnRestart);
+        button.GetComponentInChildren<TextMeshProUGUI>().text = "Try Again";
       }
 
       if(data.value != 0) CardValue.Invoke(data.value);
@@ -47,6 +50,11 @@ public class Card_Manager : MonoBehaviour
     public void OnToTitle(){
       Debug.Log("OnToTitle");
       sceneLoader.LoadScene("MainMenuScene");
+    }
+
+    public void OnRestart(){
+      Debug.Log("OnToTitle");
+      sceneLoader.LoadScene("GameScene");
     }
 
     public void OnToNext(){

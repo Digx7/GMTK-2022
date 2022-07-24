@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05e14a48f54d0d54ea66f5f825ddd1b0, type: 3}
   m_Name: SeriousDating_Fail
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
   artWork: {fileID: 2121011263, guid: 364a25de6196f8d478317dbb6b62f9fb, type: 3}
   text: It doesn't work out
+  value: 0

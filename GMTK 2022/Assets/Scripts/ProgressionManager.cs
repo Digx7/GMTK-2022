@@ -9,6 +9,10 @@ public class ProgressionManager : MonoBehaviour
     public GameManager gameManager;
     public Card_Manager cardManager;
 
+    public AudioSource goodSFX;
+    public AudioSource badSFX;
+    public AudioSource neutralSFX;
+
     private int index = -1;
     private ProgessionNode_SO currentNode;
 
@@ -29,15 +33,24 @@ public class ProgressionManager : MonoBehaviour
     private void NewStepNode(){
       gameManager.currentStep = currentNode.step_data;
       gameManager.LoadNewStep();
+      PlaySFX(3);
     }
 
     private void NewResultNode(int input){
       cardManager.data = currentNode.cards_data[input];
       cardManager.LoadNewCard();
+      PlaySFX(input);
     }
 
     private void NewRandomNode(int input){
       cardManager.data = currentNode.cards_data[input];
       cardManager.LoadNewCard();
+      PlaySFX(input);
+    }
+
+    private void PlaySFX(int input){
+      if(input == 0) goodSFX.Play();
+      else if(input == 1) badSFX.Play();
+      else neutralSFX.Play();
     }
 }

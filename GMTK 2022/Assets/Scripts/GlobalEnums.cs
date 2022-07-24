@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum StepState {Start,Rolling,End}
 
-public enum CardType {ToTitle,ToNext}
+public enum CardType {ToTitle,ToNext,ToRestart}
 
 public enum NodeType {Step,Result,Random}
 

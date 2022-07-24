@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05e14a48f54d0d54ea66f5f825ddd1b0, type: 3}
   m_Name: FirstDate_Fail
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
   artWork: {fileID: -1377508581, guid: bdb20629d0ccfc249b6679635fb0409d, type: 3}
   text: Their not into it
+  value: 0
